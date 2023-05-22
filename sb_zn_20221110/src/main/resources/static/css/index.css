@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+* {
+	margin: 2;
+	background-color: gray;
+	padding: 2;
+}
+
+body {
+	background-color: gray;
+	background-repeat: fixed;
+}
+
+div {
+	text-align: center;
+/* 	width: 99%; */
+ 	height: 100%; 
+	font-size: 20px;
+	border: 2px solid pink;
+	border-width: 0px;
+	/* 	border-style: soild; */
+	border-style: dashed dashed dashed dashed;
+	/*  	padding: 1px;  */
+	margin: 2%; 
+}
+
+p.user {
+ 	color: gray; 
+	font-size: 22px;
+	text-align: center;
+	font-style: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	color: #D0EE01;
+	font-size: 24px;
+	text-align: center;
+	font-style: inherit;
+}
+
+
+p * {
+	color: green;
+}
+
+ul li {
+	font-size: 30px;
+	width: auto;
+	height: 48px;
+	list-style-type: none;
+	padding: 4px 30px 4px 30px;
+	margin: 2px;
+	display: inline-block;
+	border: 1px solid gray;
+	/* 	background-color: gray; */
+	box-shadow: 1px 2px 6px 6px rgba(0, 0, 0.1, 0.5);
+}
+
+a {
+	color: white;
+	/* 	color: green; */
+	font-size: 20px;
+}
+
+a:hover {
+	color: yellow;
+}
+
+.yue {
+	color: red;
+}
+
+table {
+ 	border: 1px solid gray; 
+	font-size: 22px;
+	width: auto;
+	margin: auto;
+ 	background-color: pink; 
+}
+
+table th {
+	color: yellow;
+	text-align: center;
+}
+
+table tr td {
+	font-size: 22px;
+	color: rgb(64, 128, 128);
+ 	border: 1px solid gray; 
+}
+
